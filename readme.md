@@ -12,19 +12,19 @@ This Wordpress theme is based very largely on [Nate Jones' Digital Signage theme
 
 2. In Wordpress create one of the following categories, according to your college:
 
-    ```'csm', 'lcc', lcf', 'chelsea', 'wimbledon', 'camberwell'```
-    
-3. Create an empty page, with an appropriate title, e.g. 'CSM'
+    ```'csm', 'lcc', 'lcf', 'chelsea', 'wimbledon', 'camberwell'```
 
-4. When editing that page, in the ```Digital Signage Display Settings``` box, select the category you created in step 2.
+3. Make some posts. Set each post to have the category from step 2.
 
-5. Make some posts. Set each post to have the category from step 2.
+4. (Optional) Use the ```Digital Signage Panel Options``` box for that post to set the post features.
 
-6. (Optional) Use the ```Digital Signage Panel Options``` box for that post to set the post features.
+5. To add an image to a post, use the ```Featured Image``` option.
 
-7. To add an image to a post, use the ```Featured Post``` option.
+6. Create an empty page, with an appropriate title, e.g. 'CSM'
 
-8. To display the posts as signs, visit the page you created in step 3.
+7. When editing that page, in the ```Digital Signage Display Settings``` box, select the category you created in step 2. (Only those categories with existing posts will be displayed as options.)
+
+8. To display the posts as signs, visit the page you created in step 6.
 
 ##Additional notes
 

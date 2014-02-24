@@ -21,22 +21,19 @@ $post_query = new WP_Query($args);
     </header><!-- #branding -->
 
     <div id="content" class="twelve columns" role="main">
-
         <div class="row">
-
         <div id="setorbitwidth" class="eight columns">
-
             <div class="post-box eight columns">
 
                 <?php while ( $post_query->have_posts() ) : $post_query->the_post(); ?>
 
                         <div id="post-<?php the_ID(); ?>" class="<?php echo get_post_meta($post->ID, '_digitalsign_background', true) ?> post eight columns">
-                		<header>
-                			<h1 class="entry-title"><?php the_title(); ?></h1>
-                			<h2 class="entry-title"><?php echo get_post_meta($post->ID, '_digitalsign_subtitle', true) ?></h2>
-                		</header>
+                    		<header>
+                    			<h1 class="entry-title"><?php the_title(); ?></h1>
+                    			<h2 class="entry-title"><?php echo get_post_meta($post->ID, '_digitalsign_subtitle', true) ?></h2>
+                    		</header>
 
-                    		<div class="entry-content ten columns">
+                    		<div class="entry-content eight columns">
                     			<!-- <?php the_post_thumbnail('medium');?> -->
                     			<?php if(has_post_thumbnail()) {
                     			    $image_src = wp_get_attachment_image_src( get_post_thumbnail_id(),'full' );
@@ -52,13 +49,11 @@ $post_query = new WP_Query($args);
                 <?php wp_reset_postdata(); ?>
 
             </div> <!-- end .post-box -->
+        </div> <!-- end #setorbitwidth -->
 
-        </div> <!-- end #main -->
-
-        <?php get_sidebar('page'); // sidebar 1, two columns ?>
+        <?php get_sidebar('page'); // sidebar 1, four columns ?>
 
         </div> <!-- end .row -->
-
     </div> <!-- end #content -->
 
 <?php get_footer(); ?>
