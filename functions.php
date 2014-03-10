@@ -20,7 +20,6 @@ add_action( 'admin_menu', 'digitalsignageual_add_boxes');
 add_action( 'pre_post_update', 'digitalsignageual_save_data');
 add_filter( 'widget_text','digitalsignageual_execute_php',100);
 
-
 function digitalsignageual_setup() {
     // Add post thumbnail supports. http://codex.wordpress.org/Post_Thumbnails
     add_theme_support('post-thumbnails');
@@ -80,7 +79,7 @@ $meta_box_post = array(
                         'name' => 'Background colour',
                         'id' => $prefix . 'background',
                         'type' => 'select',
-                        'options' => array('none', 'black', 'blue', 'gray', 'green', 'orange', 'pink', 'purple', 'teal')
+                        'options' => array('none', 'black', 'blue', 'gray', 'green', 'orange', 'pink', 'purple', 'teal', 'red')
                 )
         )
 );
@@ -103,6 +102,18 @@ $meta_box_page = array(
                         'id' => $prefix . 'category',
                         'type' => 'select',
                         'options' => $cathash
+                ),
+                array(
+                        'name' => 'College Branding',
+                        'id' => $prefix . 'collegename',
+                        'type' => 'select',
+                        'options' => array('lcf', 'lcc', 'csm', 'csm', 'chelsea', 'camberwell', 'wimbledon', 'none')
+                ),
+                array(
+                        'name' => 'Side-bar / Timetable',
+                        'id' => $prefix . 'displaySidebar',
+                        'type' => 'select',
+                        'options' => array('on', 'off')
                 ),
                 array(
                         'name' => 'Seconds between transitions',
