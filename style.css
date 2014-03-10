@@ -104,9 +104,9 @@ div .green { background: #9dd53a; /* Old browsers */ background: -moz-linear-gra
 
 /* Typography
 */
-body { font-family: "Magra", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+body { font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
-h1, h2, h3, h4, h5, h6, p { font-weight: 500; font-family: "Magra", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+h1, h2, h3, h4, h5, h6, p { font-weight: 500; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 h1 { color: #fff; font-size: 60px; font-size: 6rem; }
 
@@ -142,7 +142,7 @@ footer ul#twitter_update_list li span a { display: inline; }
 
 /* CLOCK thanks to @Bluxart :: http://www.alessioatzeni.com/blog/css3-digital-clock-with-jquery/
 */
-.clock { width: 98%; margin: -20px auto 0 auto; padding: 0; color: white; }
+.clock { width: 98%; margin: -5px auto 0 auto; padding: 0; color: white; }
 
 #Date { font-size: 24px; font-size: 2.4rem; text-align: center; margin-top: 0; display: block; float: none; position: relative; }
 
