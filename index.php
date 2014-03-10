@@ -24,13 +24,14 @@
 			<div id="howto" class="eight columns">
 			<h3>How to set up digital signs</h3>
 			<ol>
-			    <li>Create one of the following categories, according to your college: 'csm', 'lcc', 'lcf', 'chelsea', 'wimbledon', 'camberwell'</li>
+			    <li>Create categories for each planned sign location.</li>
+			    <li>Create an empty page for each sign.</li>
+			    <li>When editing that page, in the 'Digital Signage Display Settings' box, select the category you created in step 1.</li>
+			    <li>Configure the branding to match your College, e.g. 'LCF' from the drop down menu.
+			    <li>Use the 'Digital Signage Panel Options' to set the interval between slides (posts) and if you want the timetable displayed.</li>
 			    <li>Make some posts. Set each post to have the category from step 1.</li>
-			    <li>(Optional) Use the 'Digital Signage Panel Options' to set post features.</li>
-			    <li>To add an image to a post, use the 'Featured Image' option.</li>
-			    <li>Create an empty page, with an appropriate title, e.g. 'CSM'</li>
-			    <li>When editing that page, in the 'Digital Signage Display Settings' box, select the category you created in step 1. (Only those categories with existing posts will be displayed as options.)</li>
-			    <li>To display the posts as signs, visit the page you created in step 5. It will be listed on the menu of pages on the left of the home page.</li>
+			    <li>To add an image to a post, use the 'Featured Image' option.
+			    <li>To display the posts as signs, visit the page you created in step 2. It will be listed on the menu of pages on the left.</li>
 			</ol>
 
 		    <div id="info">
